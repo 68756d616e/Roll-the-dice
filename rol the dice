@@ -1,0 +1,17 @@
+# Roll the dice
+
+import random
+
+print("""Welcome to roll the dice
+      _ _          
+   __| (_) ___ ___ 
+  / _` | |/ __/ _ \
+ 
+ | (_| | | (_|  __/
+  \__,_|_|\___\___|
+
+""")
+
+dice2 = random.randint(1,6)
+
+print(f"The dice rolled on {dice2}")
